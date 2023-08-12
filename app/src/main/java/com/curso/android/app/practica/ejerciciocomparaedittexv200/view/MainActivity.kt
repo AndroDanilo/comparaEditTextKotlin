@@ -28,10 +28,6 @@ class MainActivity : AppCompatActivity() {
 
 
 
-
-
-
-
         mainViewModel.resultado.observe(this) {
         binding.result.text = "${it.data}"
             //observa los cambios del "resultado" definido en el viewmodel
